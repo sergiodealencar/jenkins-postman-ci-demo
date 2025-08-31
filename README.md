@@ -38,5 +38,28 @@ This repository demonstrates how to automate API testing using a **Postman colle
    ```bash
    http://localhost:8080
    ```
+   
+4. **Steps to run Postman pipeline:**
+   1. Click on "+ New Item"
+   2. Enter an item name
+   3. Select "Pipeline" and click on the [OK] button
+   4. Past the following pipeline inside the Script window:
+  
+   ```bash
+   pipeline {
+    agent any
 
+    stages {
+        stage('Running Collection') {
+            steps {
+                sh '''
+                    newman run https://api.postman.com/collections/46008687-2486952c-da6a-4f29-a6fc-d8de420e4b94?access_key=PMAT-01K3Y0YPXV81AEPN1R9WD98695 \
+                    --reporters cli,htmlextra \
+                    --reporter-htmlextra-export newman/report.html
+                '''
+            }
+        }
+    }
+}
+```
    
