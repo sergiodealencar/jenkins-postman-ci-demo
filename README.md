@@ -14,7 +14,7 @@ This repository demonstrates how to automate API testing using a **Postman colle
   - [Jenkins](https://www.jenkins.io/) (Continuous Integration/Delivery)
   - [Postman](https://www.postman.com/) (API testing)
   - [Newman](https://www.npmjs.com/package/newman) (Postman CLI)
-  - [Docker](https://www.docker.com/products/docker-desktop)
+  - [Docker](https://www.docker.com/products/docker-desktop) (to containerize the CI/CD environment)
 
 - **Pipeline Workflow**:
   1. Jenkins spins up in a Docker container.
