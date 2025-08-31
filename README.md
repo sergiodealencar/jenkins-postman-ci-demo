@@ -27,5 +27,13 @@ This repository demonstrates how to automate API testing using a **Postman colle
 2. **Jenkins installation (using Docker)**
    ```bash
    docker run -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home --env JAVA_OPTS="-Dfile.encoding=UTF8" vdespa/jenkins-postman
+   ```
+
+   If you are on Apple Silcon, use the following command:
+   ```bash
+   docker run --platform linux/amd64 -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home --env JAVA_OPTS="-Dfile.encoding=UTF8" vdespa/jenkins-postman
+   ```
+
+   
 
    
