@@ -4,6 +4,12 @@ This repository demonstrates how to automate API testing using a **Postman colle
 
 ## Overview
 
+- **Tested API:** [Trello REST API  ](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/#api-group-actions)
+  - Creates a board
+  - Creates TODO and DONE lists
+  - Creates and moves a card
+  - Deletes the board and verifies deletion
+
 - **Tools Used**:
   - [Jenkins](https://www.jenkins.io/) (Continuous Integration/Delivery)
   - [Postman](https://www.postman.com/) (API testing)
@@ -15,6 +21,8 @@ This repository demonstrates how to automate API testing using a **Postman colle
   2. The pipeline installs Newman.
   3. It runs the Postman collection via Newman.
   4. A test report is generated and displayed in Jenkins.
+ 
+  ##
 
 ## How to Run Locally
 
