@@ -57,9 +57,10 @@ This repository demonstrates how to automate API testing using a **Postman colle
                     --reporters cli,htmlextra \
                     --reporter-htmlextra-export newman/report.html
                 '''
-            }
-        }
-    }
-}
-```
+                  }
+              }
+          }
+      }
+     ```
+   
    
