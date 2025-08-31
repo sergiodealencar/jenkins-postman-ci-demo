@@ -46,6 +46,7 @@ This repository demonstrates how to automate API testing using a **Postman colle
    4. Past the following pipeline inside the Script window:
   
    ```bash
+   
    pipeline {
     agent any
 
