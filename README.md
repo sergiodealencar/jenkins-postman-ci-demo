@@ -24,7 +24,7 @@ This repository demonstrates how to automate API testing using a **Postman colle
    cd jenkins-postman-ci-demo
 
 
-2. **Jenkins installation (need to install Docker - [Instructions here](https://www.docker.com/products/docker-desktop))**
+2. **Jenkins installation (using [Docker](https://www.docker.com/products/docker-desktop))**
    ```bash
    docker run -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home --env JAVA_OPTS="-Dfile.encoding=UTF8" vdespa/jenkins-postman
    ```
