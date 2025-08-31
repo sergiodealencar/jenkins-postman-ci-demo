@@ -20,7 +20,7 @@ This repository demonstrates how to automate API testing using a **Postman colle
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/jenkins-postman-ci-demo.git
+   git clone https://github.com/sergiodealencar/jenkins-postman-ci-demo.git
    cd jenkins-postman-ci-demo
 
 
