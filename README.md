@@ -1,4 +1,4 @@
-# Jenkins CI/CD + Postman + Docker
+# Jenkins CI/CD, Postman and Docker
 
 This repository demonstrates how to automate API testing using a **Postman collection** executed by **Newman** inside a **Jenkins pipeline running on Docker**.
 
