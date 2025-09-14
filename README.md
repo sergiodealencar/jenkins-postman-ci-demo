@@ -51,7 +51,7 @@ This repository demonstrates how to automate API testing using a **Postman colle
    1. Click on "+ New Item"
    2. Enter an item name
    3. Select "Pipeline" and click on the [OK] button
-   4. Past the following pipeline inside the Script window:
+   4. Paste the following pipeline inside the Script window:
       
   
    ```bash
